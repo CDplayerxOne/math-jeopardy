@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Jeopardy</title>
+	<title>Geopardy</title>
 	<meta name="description" content="math jeopardy" />
 </svelte:head>
 
@@ -14,7 +14,7 @@
 	<div class="z-2 w-full h-full absolute flex items-center justify-center">
 		<div class="text-white">
 			<p class="text-blue-400 font-extrabold">MHF4U0 2023-2024</p>
-			<h1 class="font-bold text-9xl mb-8">Math Jeopardy</h1>
+			<h1 class="font-bold text-9xl mb-8">Geopardy</h1>
 			<p class="mb-4">By Corey, Chang and Sam</p>
 			<a href="/play">
 				<button class="button is-link text-xl">Play 😀</button>
