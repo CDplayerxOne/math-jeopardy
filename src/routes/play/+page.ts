@@ -4,7 +4,7 @@ export async function load({ fetch }) {
 	const res = await fetch(
 		`${
 			dev ? 'http://localhost:8888' : 'https://math-jeopardy.netlify.app'
-		}/.netlify/functions/questions`
+		}/.netlify/functions/sauce`
 	);
 	const response = await res.json();
 	console.log(response);

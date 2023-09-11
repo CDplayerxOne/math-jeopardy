@@ -5,7 +5,7 @@ const handler: Handler = async (event: HandlerEvent, context: HandlerContext) =>
 		'Access-Control-Allow-Origin': '*',
 		'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
 	};
-	const questions = {
+	const sauce = {
 		questions: [
 			{
 				id: 0,
@@ -241,7 +241,7 @@ const handler: Handler = async (event: HandlerEvent, context: HandlerContext) =>
 	};
 	return {
 		statusCode: 200,
-		body: JSON.stringify(questions),
+		body: JSON.stringify(sauce),
 		headers: CORS_HEADERS
 	};
 };
