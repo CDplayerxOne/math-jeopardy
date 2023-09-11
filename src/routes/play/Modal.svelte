@@ -41,7 +41,8 @@
 		dispatch('finished', {
 			solved: solved[0],
 			scorer: solved[1],
-			problem: id
+			problem: id,
+			effects: effects
 		});
 		dispatch('message');
 		solved = [false, null];

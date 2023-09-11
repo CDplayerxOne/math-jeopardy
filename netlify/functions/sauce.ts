@@ -204,7 +204,7 @@ const handler: Handler = async (event: HandlerEvent, context: HandlerContext) =>
 				id: 21,
 				category: 'Polynomials',
 				question: 'Solve for x.',
-				math: '3(x+1)(2x-3) \\ge x + 5',
+				math: '-3(x+1)(2x-3) \\ge x + 5',
 				value: 500,
 				answer: ['-\\frac{2}{3} < x < 1'],
 				completed: false
