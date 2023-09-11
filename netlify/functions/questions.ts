@@ -1,10 +1,10 @@
 import type { Handler, HandlerEvent, HandlerContext } from '@netlify/functions';
 
 const handler: Handler = async (event: HandlerEvent, context: HandlerContext) => {
-	const CORS_HEADERS = {
-		'Access-Control-Allow-Origin': '*',
-		'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
-	};
+	// const CORS_HEADERS = {
+	// 	'Access-Control-Allow-Origin': '*',
+	// 	'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
+	// };
 	const questions = {
 		questions: [
 			{
@@ -241,8 +241,8 @@ const handler: Handler = async (event: HandlerEvent, context: HandlerContext) =>
 	};
 	return {
 		statusCode: 200,
-		body: JSON.stringify(questions),
-		headers: CORS_HEADERS
+		body: JSON.stringify(questions)
+		// headers: CORS_HEADERS
 	};
 };
 
